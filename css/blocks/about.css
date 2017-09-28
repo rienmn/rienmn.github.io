@@ -1,0 +1,85 @@
+.container-about .wrapper {
+  min-height: 659px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.container-about__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .container-about__content .item {
+    width: 29%;
+    min-height: 307px; }
+    .container-about__content .item__title {
+      background: #ffd200;
+      text-align: center;
+      min-height: 50px;
+      padding-top: 15px;
+      margin-bottom: 6px;
+      -webkit-border-top-left-radius: 10px;
+              border-top-left-radius: 10px;
+      -webkit-border-top-right-radius: 10px;
+              border-top-right-radius: 10px; }
+      .container-about__content .item__title h2 {
+        font-size: 36px; }
+    .container-about__content .item__content {
+      background: #f7f0e6;
+      min-height: 236px;
+      -webkit-border-bottom-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+      -webkit-border-bottom-right-radius: 10px;
+              border-bottom-right-radius: 10px;
+      padding-left: 35px; }
+      .container-about__content .item__content span {
+        display: block;
+        font-size: 18px;
+        padding-top: 20px;
+        width: 90%; }
+      .container-about__content .item__content ul {
+        padding-top: 20px; }
+      .container-about__content .item__content li {
+        font-size: 18px; }
+        .container-about__content .item__content li:not(:first-child) {
+          margin-left: 32px;
+          list-style-type: disc;
+          line-height: 36px; }
+      .container-about__content .item__content b {
+        display: block;
+        margin-top: 20px;
+        color: #e11a27;
+        width: 60%; }
+
+.container-about .btn {
+  margin-top: 75px;
+  background: #e11a27;
+  border: none;
+  color: white;
+  -webkit-transition-duration: 1s;
+       -o-transition-duration: 1s;
+          transition-duration: 1s; }
+  .container-about .btn:hover {
+    text-shadow: 3px 3px 3px white;
+    -webkit-animation-name: colorized;
+            animation-name: colorized;
+    -webkit-animation-duration: 0.2s;
+            animation-duration: 0.2s; }

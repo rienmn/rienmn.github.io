@@ -1,0 +1,34 @@
+.container {
+    &-header {
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 80px;
+        }
+        &__logo {
+            padding-right: 500px;
+        }
+        &__number {
+            background: rgb(255, 210, 0);
+            width: 211px;
+            min-height: 37px;
+            border-radius: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition-duration: 0.5s;
+            span {
+                line-height: 37px;
+                font-size: 16px;
+                text-decoration: underline;
+                text-decoration-style: dotted;
+            }
+            &:hover {
+                color: white;
+                span {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

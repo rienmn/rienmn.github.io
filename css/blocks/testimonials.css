@@ -1,0 +1,67 @@
+.container-testimonials {
+  min-height: 727px;
+  padding-top: 40px;
+  background: url(../img/testimonialsBack.png) no-repeat; }
+  .container-testimonials .wrapper {
+    min-height: 727px; }
+  .container-testimonials h2 {
+    font-size: 60px;
+    margin-bottom: 57px;
+    -webkit-animation-name: slowShowing;
+            animation-name: slowShowing;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s; }
+  .container-testimonials figure {
+    margin: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .container-testimonials figcaption {
+    margin-left: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .container-testimonials figcaption b {
+      font-size: 30px;
+      text-transform: uppercase; }
+    .container-testimonials figcaption span {
+      font-size: 18px; }
+  .container-testimonials p {
+    font-size: 18px;
+    width: 53%;
+    margin-top: 20px; }
+  .container-testimonials .next {
+    margin-top: 45px;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    width: 49%;
+    text-align: right;
+    position: relative; }
+    .container-testimonials .next:after {
+      content: "";
+      position: absolute;
+      width: 26px;
+      height: 3px;
+      background: url(../img/nextArrow.png) no-repeat;
+      top: 8px;
+      right: -35px; }
+  .container-testimonials .btn {
+    margin-top: 75px;
+    margin-left: 80px;
+    -webkit-transition-duration: 1s;
+         -o-transition-duration: 1s;
+            transition-duration: 1s; }
+    .container-testimonials .btn:hover {
+      text-shadow: 3px 3px 3px #ffd200; }

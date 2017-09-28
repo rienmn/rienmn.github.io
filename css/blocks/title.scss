@@ -1,0 +1,35 @@
+.container {
+    &-title {
+        background: url(../img/titleBack.png)no-repeat 50%;
+        min-height: 547px;
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 54px;
+            
+        }
+        h1 {
+            font-size: 60px;
+            text-transform: uppercase;
+            margin-bottom: 25px;
+             animation-name:slowShowing;
+            animation-duration:2s;
+        }
+        span {
+            font-size: 24px;
+            display: block;
+            margin-bottom: 70px;
+        }
+        .btn {
+            transition-duration: 0.5s;
+
+            &:hover {
+            animation-name:fill;
+            animation-duration:0.2s;
+            animation-fill-model: forwards;
+                color: white;
+            }
+        }
+    }
+}

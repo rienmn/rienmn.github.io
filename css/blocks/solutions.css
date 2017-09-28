@@ -1,0 +1,83 @@
+.container-solutions .wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 730px; }
+
+.container-solutions h2 {
+  font-size: 60px;
+  margin-top: 70px;
+  margin-bottom: 80px; }
+
+.container-solutions__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%; }
+  .container-solutions__content .item {
+    border: 5px solid #ffd200;
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    width: 28.9%;
+    min-height: 419px; }
+    .container-solutions__content .item__title {
+      height: 81px;
+      padding-top: 45px;
+      background: #ffd200;
+      text-align: center; }
+    .container-solutions__content .item__info {
+      min-height: 180px; }
+      .container-solutions__content .item__info li {
+        font-size: 18px;
+        line-height: 36px;
+        padding-left: 60px;
+        position: relative; }
+        .container-solutions__content .item__info li:before {
+          content: "";
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          background: url(../img/check.png) no-repeat;
+          left: 20px;
+          top: 8px; }
+    .container-solutions__content .item__price {
+      min-height: 87px;
+      text-align: center; }
+      .container-solutions__content .item__price b {
+        font-size: 60px; }
+    .container-solutions__content .item__offer {
+      background: #ffd200;
+      min-height: 36px;
+      padding-top: 15px;
+      text-align: center; }
+      .container-solutions__content .item__offer span {
+        font-size: 22px; }
+    .container-solutions__content .item h2 {
+      font-size: 26px;
+      margin: 0; }
+    .container-solutions__content .item:nth-child(2) {
+      position: relative; }
+      .container-solutions__content .item:nth-child(2):before {
+        content: "";
+        text-align: center;
+        width: 194px;
+        height: 44px;
+        background: url(../img/bestseller.png) no-repeat;
+        position: absolute;
+        top: -25px;
+        left: 60px; }

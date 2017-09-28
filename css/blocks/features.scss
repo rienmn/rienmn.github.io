@@ -1,0 +1,74 @@
+.container {
+    &-features {
+        min-height: 307px;
+        padding-top: 55px;
+        .wrapper {
+            display: flex;
+            justify-content: space-around;
+        }
+        &__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            a {
+                height: 129px;
+                width: 129px;
+                border-radius: 50%;
+                border: 5px solid rgb(255, 210, 0);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 25px;
+                transition-duration: 1s;
+                position: relative;
+                background: white;
+                z-index: 3;
+                &:after {
+                    content: "";
+                    width: 135px;
+                    height: 5px;
+                    position: absolute;
+                    background: url(../img/steps.png)no-repeat;
+                    right: -147px;
+                    z-index: 1;
+                }
+                /*&:first-child {
+                background:red;
+                &:after {
+                content:"";
+                  width:135px;
+                  height:5px;
+                  position:absolute;
+                  background:none;
+                  border:1px solid red;
+                }
+                }*/
+                
+                &:hover {
+                    border: 5px solid rgb(255, 26, 39);
+                    box-shadow: 1px 1px 1px 3px rgb(255, 26, 39);
+                }
+            }
+            span {
+                width: 68%;
+                font-size: 24px;
+            }
+            &--last {
+                a {
+                    &:after {
+                        content: "";
+                        width: 135px;
+                        height: 5px;
+                        position: absolute;
+                        background: white;
+                        right: -147px;
+                        z-index: 10;
+                    }
+                }
+            }
+        }
+    }
+}

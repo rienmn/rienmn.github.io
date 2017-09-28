@@ -1,0 +1,37 @@
+.container {
+    &-footer {
+        background: rgb(255, 210, 0);
+        min-height: 227px;
+        padding-top: 50px;
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        &__info {
+            display: flex;
+            width: 85%;
+            ul {
+                width: 14.5%;
+            }
+            a {
+                text-decoration: none;
+                color: #000000;
+                font-size: 18px;
+                line-height: 36px;
+            }
+        }
+        &__hrefs {
+            .href {
+            margin-bottom:10px;
+            }
+            a {
+                margin-right: 20px;
+            }
+        }
+        &__rights {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}

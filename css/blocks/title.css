@@ -1,0 +1,41 @@
+.container-title {
+  background: url(../img/titleBack.png) no-repeat 50%;
+  min-height: 547px; }
+  .container-title .wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 54px; }
+  .container-title h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    -webkit-animation-name: slowShowing;
+            animation-name: slowShowing;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s; }
+  .container-title span {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 70px; }
+  .container-title .btn {
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s; }
+    .container-title .btn:hover {
+      -webkit-animation-name: fill;
+              animation-name: fill;
+      -webkit-animation-duration: 0.2s;
+              animation-duration: 0.2s;
+      animation-fill-model: forwards;
+      color: white; }
